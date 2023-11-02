@@ -4,5 +4,5 @@ echo 'Enter file name: '
 read file_n
 git add $file_n
 echo 'Message: '
-read comm_m
-git commit -m '$comm_m'
+read comm
+git commit -m $comm
